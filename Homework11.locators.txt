@@ -1,0 +1,54 @@
+1. Username locator --- //div[@class="row justify-content-center"]//div[@class="col-12 col-lg-6 profile-user-settings"]/h2
+
+2. Post count locator-- //div[@class="row"]/div[@class="col-12 col-md-8 col-lg-7 profile-stats"]//strong[@class="profile-stat-count"]
+
+3. followers locator -- //app-profile-section//li[@id="followers"] 		or		 //li[@id="followers"]
+
+4. following locator -- //app-profile-section//li[@id="following"] 		or		 //li[@id="following"]
+
+5. profile pic locator  //div[@class="row justify-content-center"]//div[@class="image-container"]/input[@id="upload-img"]
+
+6. like button locator  //div[@class="post-modal-container"]//div[@class="icons-container"]/i[@class="like far fa-heart fa-2x"]
+
+7. dislike button ----  //div[@class="post-modal-container"]//div[@class="icons-container"]/i[@class="ml-4 far fa-thumbs-down fa-2x"]
+
+8. picture post order - //app-profile-posts-section//div[@class="container"]//app-post[1,2,3..]
+
+9. user-editicon ------ //div[@class="container-fluid"]//i[@class="fas fa-user-edit"]
+
+10.picture post date -- //div[@class="modal-content"]//div[@class="container post-info-container"]//div[@class="post-date"]
+
+11. public post ------- //div[@class="btn-group btn-group-toggle post-filter-buttons"]/label[@class="btn-private btn btn-primary"]
+
+12. private post ------ //div[@class="btn-group btn-group-toggle post-filter-buttons"]/label[@class="btn-private btn btn-primary active"]   \\ must be cliked on private button
+
+13. profile button ---- //div[@id="navbarColor01"]/ul[@class="navbar-nav"]/li[@class="nav-item"]/a[@id="nav-link-home"]		or 		//ul[@class="navbar-nav"]//a[@id="nav-link-profile"]
+
+14. private icon -----  //div[@class="post-modal-container"]//div[@class="icons-container"]/i[@class="fas fa-lock "] \\ mustbe selected private pic
+
+15. public icon ------  //div[@class="post-modal-container"]//div[@class="icons-container"]/i[@class="fas fa-unlock "] \\ mustbe selected public pic
+
+16. user edition icon---//div[@class="col-12 col-lg-6 profile-user-settings"]/i[@class="fas fa-user-edit ng-star-inserted"]
+
+17. Search field-------//div[@id="navbarColor01"]//input[@id="search-bar"]
+                       option 2
+                       //input[@id="search-bar"]
+
+18. delete post--------//div[@class="container post-info-container"]//div[@class="ng-star-inserted"]/label/a
+
+19. delete photo - Are you sure - No - //div[@class="col-12 post-info"]/div[@class="ng-star-inserted"]//div[@class="delete-confirm"]//button[contains(text(),"No")]
+
+                                     option 2 - //*[button[contains(text(),"No")]]
+
+                                     option 3 - //*[button[2]]
+
+SignUp form
+
+20. the password field ------ //input[@name="password"]
+
+21. confirm password field ---//input[@id="defaultRegisterPhonePassword"]
+
+22. sign in button ----- --- //button[@type="submit"]
+
+the end
+
