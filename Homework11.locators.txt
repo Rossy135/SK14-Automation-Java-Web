@@ -50,5 +50,15 @@ SignUp form
 
 22. sign in button ----- --- //button[@type="submit"]
 
+23. username field  ------ //div[@class = "container-fluid"]//input[@placeholder="Username"]
+
+24. username empty field - //div[@class="container-fluid"]//div[1]/span \\\\\\\\\\\\\  must be clicked on
+
+25. email field ---------- //div[@class = "container-fluid"]//input[@placeholder="email"]
+
+26. email empty field ---- //div[@class="container-fluid"]//div[2]/span \\\\\\\\\\\\ must be clicked on
+
+27. password confirm ----- //div[@class="container-fluid"]//input[@id="defaultRegisterPhonePassword"]
+
 the end
 
